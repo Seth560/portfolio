@@ -13,11 +13,13 @@
         <div class="container nav-content">
             <span class="logo">SETH <strong>B.M.</strong></span>
             <ul class="nav-links">
+                <li><a href="#about">À propos</a></li>
                 <li><a href="#experiences">Expériences</a></li>
                 <li><a href="#projets">Projets</a></li>
                 <li><a href="#competences">Compétences</a></li>
-                <li><a href="#formation">Formation</a></li>
-                <li><a href="#certifications">Certifications</a></li> <li><a href="#veille">Veille</a></li>
+                <li><a href="#Parcours">Parcours</a></li>
+                <li><a href="#certifications">Certifications</a></li> 
+                <li><a href="#veille">Veille</a></li>
                 <li><a href="#contact">Contact</a></li>
                 <li><a href="Grille_Compétences.pdf" class="nav-highlight" target="_blank"><i class="fas fa-file-pdf"></i> Grille E5</a></li>
             </ul>
@@ -27,19 +29,47 @@
     <header class="hero">
         <div class="container">
             <h1>Seth BABO MBENZA</h1>
-            <p class="subtitle">Étudiant en BTS SIO SISR</p>
+            <p class="subtitle">Étudiant en BTS SIO Option SISR</p>
         </div>
     </header>
 
     <main class="container">
         
-        <section id="experiences">
-            <h2 class="section-title"><i class="fas fa-briefcase"></i> Expériences</h2>
-            <div class="card">
-                <div class="exp-header">
-                    <h3>La Clairière</h3>
-                    <span class="date">Mai 2024 – Juin 2024</span>
+        <section id="about" class="reveal">
+            <div class="container">
+                <div class="about-grid">
+                    <div class="card about-card">
+                        <h2 class="section-title"><i class="fas fa-user"></i> Présentation</h2>
+                        <p>
+                            Je suis Seth BABO MBENZA, j'ai 19 ans et je suis étudiant en deuxième année de BTS SIO (Services Informatique aux Organisations) option SISR (Solutions d'Infrastructures Systèmes et Réseaux) au Lycée Parc de Vilgénis à Massy (91300).
+                        </p>
+                        <p>
+                            Actuellement diplômé d'un Bac Technologique STI2D (Sciences et Technologies de l'Industrie et du Développement Durable) spécialité SIN (Système d'information et numérique).
+                        </p>
+                        <p>
+                            L'année prochaine, j'envisage de continuer dans une formation informatique en alternance.
+                        </p>
+                    </div>
+
+                    <div class="card about-card">
+                        <h2 class="section-title"><i class="fas fa-graduation-cap"></i> Ma Formation</h2>
+                        <p>
+                            Le Brevet de Technicien Supérieur - Services Informatiques aux Organisations (BTS SIO) s'adresse à ceux qui souhaitent
+                            se former aux métiers d'administrateurs réseau ou de développeur en deux ans. Par la suite, il est possible de continuer
+                            ses études dans le domaine de l'informatique ou d'intégrer directement le marché du travail.
+                        </p>
+                    </div>
                 </div>
+            </div>
+        </section>
+
+       <section id="experiences" class="reveal">
+    <h2 class="section-title"><i class="fas fa-briefcase"></i> Expériences</h2>
+    
+    <div class="card exp-card">
+        <div class="exp-main-content">
+            <div class="exp-description">
+                <h3>La Clairière</h3>
                 <p class="job-title">Stagiaire Technicien Maintenance</p>
                 <ul class="bullet-list">
                     <li>Maintenance préventive et dépannage des postes informatiques.</li>
@@ -47,101 +77,170 @@
                     <li>Optimisation des systèmes d'exploitation.</li>
                 </ul>
             </div>
-            <div class="card">
-                  <div class="exp-header">
-                    <h3>Mairie d'Athis-Mons</h3>
-                    <span class="date">Nov. 2025 – Déc. 2025</span>
-                </div>
+            
+            <div class="side-info">
+                <span class="date">2 Juin 2024 – 4 Juillet 2024</span>
+                <img src="img/la-clairiere.jpg" alt="Logo La Clairière" class="company-logo-large">
+            </div>
+        </div>
+    </div>
+
+    <div class="card exp-card">
+        <div class="exp-main-content">
+            <div class="exp-description">
+                <h3>Mairie d'Athis-Mons</h3>
                 <p class="job-title">Stagiaire Administrateur Systèmes & Réseaux</p>
                 <ul class="bullet-list">
                     <li>Gestion et résolution des incidents via la plateforme <strong>GLPI</strong>.</li>
                     <li>Inventaire des imprimantes et gestion du stock de cartouches.</li>
+                    <li>Interventions de terrain et dépannage matériel/logiciel.</li>
                     <li>Préparation, configuration et installation de matériel pour les services.</li>
                     <li>Élaboration de documentations et fiches de procédures.</li>
-                    <li>Interventions de terrain et dépannage matériel/logiciel.</li>
                 </ul>
                 <div class="tech-logos">
                     <img src="https://img.shields.io/badge/GLPI-ED1C24?style=flat&logo=glpi&logoColor=white" alt="GLPI">
                     <img src="https://img.shields.io/badge/Windows-0078D6?style=flat&logo=windows&logoColor=white" alt="Windows">
                 </div>
-        </section>
-
-        <section id="projets">
-            <h2 class="section-title"><i class="fas fa-project-diagram"></i> Projets & Réalisations</h2>
-            
-            <div class="card" style="margin-bottom: 30px; border-left: 4px solid var(--accent);">
-                <div class="exp-header">
-                    <h3>Projet 1 : Administration & Documentation</h3>
-                    <span class="date">Station F Office</span>
-                </div>
-                <p class="job-title">Focus : Automatisation des accès utilisateurs</p>
-                <ul class="bullet-list">
-                    <li><strong>Documentation :</strong> Rédaction de la procédure de connexion automatique des utilisateurs au domaine.</li>
-                    <li><strong>Automatisation :</strong> Création de scripts de login pour le montage des lecteurs réseaux.</li>
-                    <li><strong>Gestion AD :</strong> Configuration des droits NTFS et structuration des comptes.</li>
-                </ul>
-                <div class="tech-logos">
-                    <img src="https://img.shields.io/badge/AD_DS-0078D6?style=flat&logo=microsoft&logoColor=white" alt="AD">
-                    <img src="https://img.shields.io/badge/Script-444?style=flat&logo=powershell&logoColor=white" alt="Script">
-                </div>
             </div>
 
-            <div class="card" style="border-left: 4px solid #16a34a;">
-                <div class="exp-header">
-                    <h3>Projet 2 : Sauvegarde & Supervision</h3>
-                    <span class="date">Infrastructure Globale</span>
-                </div>
-                <p class="job-title">Focus : Continuité et Monitoring (ELK)</p>
-                <ul class="bullet-list">
-                    <li><strong>Sauvegarde :</strong> Automatisation des sauvegardes de configuration pour toute l'infrastructure réseau.</li>
-                    <li><strong>Supervision :</strong> Installation et configuration de l'<strong>Elastic Agent</strong> sur Linux Debian.</li>
-                    <li><strong>Logs :</strong> Centralisation et analyse des flux systèmes pour la détection d'anomalies.</li>
-                </ul>
-                <div class="tech-logos">
-                    <img src="https://img.shields.io/badge/ELK-005571?style=flat&logo=elastic-stack&logoColor=white" alt="ELK">
-                    <img src="https://img.shields.io/badge/Debian-A81D33?style=flat&logo=debian&logoColor=white" alt="Debian">
-                </div>
+            <div class="side-info">
+                <span class="date">17 Novembre 2025 – 19 Décembre 2025</span>
+                <img src="img/athis-mons.png" alt="Logo Mairie Athis-Mons" class="company-logo-large">
             </div>
-        </section>
+        </div>
+    </div>
+</section>
 
-        <section id="competences">
-            <h2 class="section-title"><i class="fas fa-tools"></i> Compétences</h2>
-            <div class="skills-grid">
-                <div class="skill-group">
-                    <h4>Systèmes</h4>
-                    <ul>
-                        <li><i class="fab fa-windows"></i> Windows Server</li>
-                        <li><i class="fab fa-linux"></i> Linux Debian</li>
-                    </ul>
-                </div>
-                <div class="skill-group">
-                    <h4>Réseaux</h4>
-                    <ul>
-                        <li><i class="fas fa-network-wired"></i> DHCP, DNS, VLAN</li>
-                        <li><i class="fas fa-save"></i> Sauvegarde Configs</li>
-                    </ul>
-                </div>
-                <div class="skill-group">
-                    <h4>Outils</h4>
-                    <ul>
-                        <li><i class="fas fa-ticket-alt"></i> GLPI (Ticketing)</li>
-                        <li><i class="fas fa-rss"></i> Veille Technologique</li>
-                    </ul>
-                </div>
+       <section id="projets" class="reveal">
+    <h2 class="section-title"><i class="fas fa-project-diagram"></i> Projets & Réalisations</h2>
+
+    <div class="project-overview-card">
+        <p>
+            <i class="fas fa-link"></i> <strong>Note de synthèse :</strong> Ces deux réalisations s'inscrivent dans un projet global de modernisation d'infrastructure. 
+            Le besoin initial était de fournir un environnement de travail sécurisé, automatisé et supervisé pour une structure multi-sites.
+        </p>
+        <p>
+            L'objectif était d'unifier la <strong>gestion des identités</strong> et des accès via un domaine centralisé (Projet 1), tout en garantissant la <strong>continuité de service</strong> et la traçabilité des flux grâce à une solution de monitoring et de sauvegarde avancée (Projet 2).
+        </p>
+    </div>
+
+    <div class="card project-card">
+        <div class="project-header">
+            <div class="project-info">
+                <h3>Projet 1 : Administration & Documentation AD</h3>
+                <p class="project-context"><strong>Contexte Global :</strong> Mise en place d'un domaine Active Directory pour une pépinière d'entreprises (Station F Office) nécessitant une isolation des données et une automatisation des accès collaborateurs.</p>
             </div>
-        </section>
-
-        <section id="formation">
-            <h2 class="section-title"><i class="fas fa-graduation-cap"></i> Formation</h2>
-            <div class="card">
+            <span class="project-tag">Systèmes</span>
+        </div>
+        
+        <div class="project-body">
+            <div class="project-details">
+                <p><strong>Ma Mission :</strong> Industrialiser et sécuriser l'accès des utilisateurs au réseau du site.</p>
                 <ul class="bullet-list">
-                    <li><strong>BTS SIO SISR</strong> | Lycée Parc de Vilgénis (2024 - 2026)</li>
-                    <li><strong>Baccalauréat STI2D</strong> | Lycée Clément Ader (2022 - 2024)</li>
+                    <li><strong>Gestion AD DS :</strong> Création de l'arborescence des Unités d'Organisation (OU).</li>
+                    <li><strong>Automatisation :</strong> Développement de scripts de login pour le montage automatique des lecteurs réseaux.</li>
+                    <li><strong>Sécurisation :</strong> Mise en place de droits NTFS granulaires et de GPO de restriction pour protéger les données sensibles.</li>
                 </ul>
             </div>
-        </section>
+            <div class="project-tech-stack">
+                <p>Outils utilisés :</p>
+                <span class="tech-badge">Windows Server</span>
+                <span class="tech-badge">Active Directory</span>
+                <span class="tech-badge">PowerShell</span>
+                <span class="tech-badge">GPO</span>
+            </div>
+        </div>
+    </div>
 
-        <section id="certifications">
+    <div class="card project-card" style="border-left-color: #16a34a;">
+        <div class="project-header">
+            <div class="project-info">
+                <h3>Projet 2 : Sauvegarde & Supervision ELK</h3>
+                <p class="project-context"><strong>Contexte Global :</strong> Mise en conformité de l'infrastructure globale avec les politiques de cybersécurité via la centralisation des logs serveurs et la mise en place d'un Plan de Continuité d'Activité (PCA).</p>
+            </div>
+            <span class="project-tag" style="background: #dcfce7; color: #166534;">Sécurité</span>
+        </div>
+        
+        <div class="project-body">
+            <div class="project-details">
+                <p><strong>Ma Mission :</strong> Assurer la visibilité sur l'état des serveurs et la disponibilité des données.</p>
+                <ul class="bullet-list">
+                    <li><strong>Supervision :</strong> Déploiement de l'agent Elastic sur serveurs Debian pour la remontée de logs en temps réel.</li>
+                    <li><strong>Analyse de données :</strong> Configuration de Dashboards Kibana pour la détection proactive d'anomalies systèmes.</li>
+                    <li><strong>Sauvegarde :</strong> Automatisation des backups de configuration des équipements réseaux pour garantir une restauration rapide.</li>
+                </ul>
+            </div>
+            <div class="project-tech-stack">
+                <p>Outils utilisés :</p>
+                <span class="tech-badge">Debian</span>
+                <span class="tech-badge">Elastic Stack</span>
+                <span class="tech-badge">Kibana</span>
+                <span class="tech-badge">Bash Script</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <section id="competences" class="reveal">
+    <h2 class="section-title"><i class="fas fa-tools"></i> Compétences Techniques</h2>
+    <div class="skills-grid">
+        <div class="skill-group">
+            <h4><i class="fas fa-server"></i> Systèmes & Virtualisation</h4>
+            <ul>
+                <li><i class="fab fa-windows"></i> Windows Server (AD DS, GPO, DNS, DHCP)</li>
+                <li><i class="fab fa-linux"></i> Linux Debian / Ubuntu Server</li>
+                <li><i class="fas fa-layer-group"></i> Virtualisation (VMware, VirtualBox, Proxmox)</li>
+                <li><i class="fas fa-terminal"></i> Scripting (PowerShell, Bash)</li>
+            </ul>
+        </div>
+
+        <div class="skill-group">
+            <h4><i class="fas fa-network-wired"></i> Réseaux & Services</h4>
+            <ul>
+                <li><i class="fas fa-project-diagram"></i> Commutation & Routage (VLAN, Routage inter-VLAN)</li>
+                <li><i class="fas fa-shield-alt"></i> Services Réseaux (VPN, NAT, Firewalling)</li>
+                <li><i class="fas fa-wifi"></i> Configuration d'équipements (Cisco, HP)</li>
+                <li><i class="fas fa-file-invoice"></i> Services d'Infrastructures (Web, FTP)</li>
+            </ul>
+        </div>
+
+        <div class="skill-group">
+            <h4><i class="fas fa-user-shield"></i> Sécurité & Gestion</h4>
+            <ul>
+                <li><i class="fas fa-lock"></i> Sécurisation des accès et des données (NTFS, ACL)</li>
+                <li><i class="fas fa-search"></i> Supervision & Logs </li>
+                <li><i class="fas fa-save"></i> Sauvegarde et Continuité (Réplication)</li>
+                <li><i class="fas fa-clipboard-check"></i> Gestion d'incidents (Ticketing)</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+       <section id="parcours" class="reveal">
+    <h2 class="section-title"><i class="fas fa-graduation-cap"></i> Parcours Scolaire</h2>
+    
+    <div class="timeline">
+        <div class="timeline-item">
+            <div class="timeline-date">2024 - 2026</div>
+            <div class="timeline-content">
+                <h3>BTS Services Informatiques aux Organisations (SIO)</h3>
+                <p class="school-name">Option SISR (Solutions d'Infrastructure, Systèmes et Réseaux)</p>
+                <p class="school-location">Lycée Parc de Vilgénis, Massy</p>
+            </div>
+        </div>
+
+        <div class="timeline-item">
+            <div class="timeline-date">2021 - 2024</div>
+            <div class="timeline-content">
+                <h3>Baccalauréat Technologique STI2D</h3>
+                <p class="school-name">Spécialité SIN (Systèmes d'Informations et numériques)</p>
+                <p class="school-location">Lycée Clément Ader, Athis-Mons</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <section id="certifications" class="reveal">
             <h2 class="section-title"><i class="fas fa-certificate"></i> Certifications</h2>
             <div class="grid">
                 <div class="card cert-flex">
@@ -167,91 +266,96 @@
             </div>
         </section>
 
-        <section id="veille">
-            <h2 class="section-title"><i class="fas fa-rss"></i> Veille Technologique</h2>
-            <div class="card">
-                <p><strong>Sujet :</strong> Supervision et centralisation des logs.</p>
-                <p><strong>Sources :</strong> Flux RSS, LinkedIn (Experts Cybersécurité).</p>
-            </div>
-        </section>
-
-        <section id="contact">
-    <h2 class="section-title"><i class="fas fa-envelope"></i> Contact</h2>
-    
-    <div class="contact-container">
-        <div class="form-wrapper">
-            <form id="my-form" action="https://formspree.io/f/mqelpogl" method="POST" class="contact-form">
-                <div class="form-group">
-                    <input type="text" name="name" placeholder="Votre Nom" required>
-                </div>
-                <div class="form-group">
-                    <input type="email" name="email" placeholder="Votre Email" required>
-                </div>
-                <div class="form-group">
-                    <textarea name="message" placeholder="Votre Message" rows="5" required></textarea>
-                </div>
-                <button type="submit" id="submit-btn" class="btn-submit">Envoyer le message</button>
-            </form>
-            <div id="status" class="success-message" style="display:none;">
-                <i class="fas fa-check-circle"></i> Merci ! Votre message a été envoyé avec succès.
-            </div>
-        </div>
-
-        <div class="contact-info">
-            <p style="font-weight: 600; margin-bottom: 5px;">Coordonnées :</p>
-            <a href="mailto:mbenza.babo@gmail.com" class="direct-link">
-                <i class="fas fa-at"></i> mbenza.babo@gmail.com
-            </a>
-            <a href="https://linkedin.com/in/seth-babo-mbenza-9bb5b2327/" target="_blank" class="direct-link">
-                <i class="fab fa-linkedin"></i> LinkedIn
-            </a>
-        </div>
+        <section id="veille" class="reveal">
+    <h2 class="section-title"><i class="fas fa-rss"></i> Veille Technologique</h2>
+    <div class="card">
+        <h3>Sujet : L'évolution des standards Wi-Fi (Wi-Fi 7) et la sécurisation des accès sans-fil</h3>
+        <p style="margin-top:10px;">
+            <strong>Problématique :</strong> Comment le nouveau standard Wi-Fi 7 répond-il aux besoins croissants de débit et de sécurité dans les infrastructures réseaux modernes ?
+        </p>
+        <ul class="bullet-list" style="margin-top:15px;">
+            <li><strong>Sources :</strong> Flux RSS (Le Monde Informatique), Veille sur Twitter (X) d'experts Cisco/Aruba, Newsletters spécialisées (Zataz pour la sécurité).</li>
+            <li><strong>Outils :</strong> Feedly pour la centralisation des flux et NetVibes pour l'organisation du tableau de bord.</li>
+        </ul>
     </div>
 </section>
 
-<script>
-    var form = document.getElementById("my-form");
-    
-    async function handleSubmit(event) {
-      event.preventDefault();
-      var status = document.getElementById("status");
-      var data = new FormData(event.target);
-      fetch(event.target.action, {
-        method: form.method,
-        body: data,
-        headers: {
-            'Accept': 'application/json'
-        }
-      }).then(response => {
-        if (response.ok) {
-          status.innerHTML = "<i class='fas fa-check-circle'></i> Merci ! Votre message a été envoyé.";
-          status.style.display = "block";
-          status.className = "success-message";
-          form.reset(); // Vide le formulaire
-          form.style.display = "none"; // Cache le formulaire
-        } else {
-          response.json().then(data => {
-            if (Object.hasOwn(data, 'errors')) {
-              status.innerHTML = data["errors"].map(error => error["message"]).join(", ");
+        <section id="contact">
+            <h2 class="section-title"><i class="fas fa-envelope"></i> Contact</h2>
+            <div class="contact-container">
+                <div class="form-wrapper">
+                    <form id="my-form" action="https://formspree.io/f/mqelpogl" method="POST" class="contact-form">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Votre Nom" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Votre Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="textarea" name="message" placeholder="Votre Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" id="submit-btn" class="btn-submit">Envoyer le message</button>
+                    </form>
+                    <div id="status" class="success-message" style="display:none;">
+                        <i class="fas fa-check-circle"></i> Merci ! Votre message a été envoyé avec succès.
+                    </div>
+                </div>
+
+                <div class="contact-info">
+                    <p style="font-weight: 600; margin-bottom: 5px;">Coordonnées :</p>
+                    <a href="mailto:mbenza.babo@gmail.com" class="direct-link">
+                        <i class="fas fa-at"></i> mbenza.babo@gmail.com
+                    </a>
+                    <a href="https://linkedin.com/in/seth-babo-mbenza-9bb5b2327/" target="_blank" class="direct-link">
+                        <i class="fab fa-linkedin"></i> LinkedIn
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        // Gestion Formulaire Formspree
+        var form = document.getElementById("my-form");
+        async function handleSubmit(event) {
+          event.preventDefault();
+          var status = document.getElementById("status");
+          var data = new FormData(event.target);
+          fetch(event.target.action, {
+            method: form.method,
+            body: data,
+            headers: { 'Accept': 'application/json' }
+          }).then(response => {
+            if (response.ok) {
+              status.innerHTML = "<i class='fas fa-check-circle'></i> Merci ! Votre message a été envoyé.";
+              status.style.display = "block";
+              form.reset(); form.style.display = "none";
             } else {
-              status.innerHTML = "Oups ! Il y a eu un problème lors de l'envoi.";
+              status.innerHTML = "Oups ! Il y a eu un problème.";
             }
-          })
+          }).catch(error => {
+            status.innerHTML = "Oups ! Erreur de connexion.";
+          });
         }
-      }).catch(error => {
-        status.innerHTML = "Oups ! Il y a eu un problème de connexion.";
-      });
-    }
-    form.addEventListener("submit", handleSubmit)
-</script>
+        form.addEventListener("submit", handleSubmit);
+
+        // Animation Reveal au Scroll
+        function reveal() {
+            var reveals = document.querySelectorAll(".reveal");
+            for (var i = 0; i < reveals.length; i++) {
+                var windowHeight = window.innerHeight;
+                var elementTop = reveals[i].getBoundingClientRect().top;
+                if (elementTop < windowHeight - 150) {
+                    reveals[i].classList.add("active");
+                }
+            }
+        }
+        window.addEventListener("scroll", reveal);
+        reveal();
+    </script>
 
     <footer>
         <p>Seth BABO MBENZA &copy; 2026</p>
     </footer>
 </body>
-
 </html>
-
-
-
-
